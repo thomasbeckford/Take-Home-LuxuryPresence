@@ -1,0 +1,26 @@
+@import "../scss/base";
+
+.main__container_layout {
+  font-family: Arial, Helvetica, sans-serif;
+  // background: $color-primary-light;
+  color: $white
+}
+
+.block{
+  height: 25px;
+  width:30px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.red-block{
+  background: red;
+}
+.green-block{
+  background: green;
+}
+
+.available-blocks{
+  display: flex;
+  align-items: center;
+}

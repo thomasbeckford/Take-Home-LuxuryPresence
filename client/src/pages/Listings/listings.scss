@@ -1,0 +1,63 @@
+@import "../../scss/_base";
+
+
+
+.listings__favorite_homes{
+    width: 90%
+}
+
+.list_of_homes{
+    display:flex;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.listings_primary_image{
+    width: 500px;
+    height: 400px;
+}
+
+.listings_secondary_images{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    
+}
+
+.listings_images_container{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.listings_images_container > img{
+    flex-grow: 1;
+    width: 33%;
+    height: 150px;
+}
+
+.listings_price{
+    font-size: 1.10rem;
+    margin-top: 10px;
+    text-align: center
+}
+
+.listings_home_details{
+    flex-grow: 2; 
+    margin-left: 20px; 
+    text-transform: capitalize; 
+    font-size: 1.10rem
+}
+
+.listings_not_found{
+    background: $color-primary;
+    margin: 5px 0px;
+    padding:60px;
+    text-align: center;
+    font-size: 1.45rem;
+    color: #fff
+}
+

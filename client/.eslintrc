@@ -1,0 +1,15 @@
+{
+  "extends": ["plugin:prettier/recommended"],
+
+  "plugins": ["prettier"],
+  "globals": {
+    "shallow": true,
+    "render": true,
+    "mount": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 0
+  }
+}
